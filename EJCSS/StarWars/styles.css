@@ -1,0 +1,72 @@
+img{
+    margin: 0px auto;
+    transition: transform 3s;
+    display: block;
+    height: auto;
+}
+/* img:hover{
+    width: 70%;
+} */
+
+.imageDarth:hover{
+    width: 250px;
+    transform: perspective(500px) rotateY(180deg);
+}
+.imageD:hover{
+    width: 300px;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    font-family: "Electrolize", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@keyframes volar {
+    0% {offset-distance: 0%;}
+    100% {offset-distance: 100%;}
+}
+/* @keyframes volar{
+    0%{bottom: 1000px; right: 0px;}
+    20%{bottom: 900px; right: 100px;}
+    40%{bottom: 1100px; right: 300px;}
+    60%{bottom: 800px; right: 200px;}
+    80%{bottom: 1000px; right: 500px;}
+    100%{bottom: 6000px; right: 100px;}
+} */
+
+.nave{
+    width: 100px;
+    z-index: 5;
+    position: relative;
+    bottom: 300px;
+    right: 450px;
+    animation: volar 3000ms infinite alternate ease-in-out;
+    offset-path: path("M 51.399993896484375 167 Q 119.39999389648438 -5 214.39999389648438 85 Q 545.3999938964844 245 399.3999938964844 244 Q 67.39999389648438 541 149.39999389648438 354 Q 79.39999389648438 207 79.39999389648438 207");
+    /* animation-name: volar;
+    animation-duration: 20s; */
+}
+
+.nave2{
+    width: 150px;
+    z-index: 5;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+    animation: volar 3000ms infinite alternate ease-in-out;
+    offset-path: path("M 564.3999938964844 98 Q 486.3999938964844 58 486.3999938964844 58 Q 278.3999938964844 97 278.3999938964844 97 Q 188.39999389648438 152 185.39999389648438 154 Q 106.39999389648438 224 104.39999389648438 232 Q 56.399993896484375 287 77.39999389648438 330 Q -14.600006103515625 403 112.39999389648438 401 Q 240.39999389648438 399 240.39999389648438 399 Q 271.3999938964844 386 306.3999938964844 368 Q 346.3999938964844 346 346.3999938964844 346 Q 423.3999938964844 317 432.3999938964844 292 Q 449.3999938964844 222 459.3999938964844 217 Q 580.3999938964844 184 580.3999938964844 184");
+    /* animation-name: volar2;
+    animation-duration: 20s; */
+}
+
+/* .nave:hover{
+    width: 200px;
+} */

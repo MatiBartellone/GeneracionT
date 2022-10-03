@@ -1,0 +1,49 @@
+/* div{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #092454;
+    position: relative;
+} */
+#uno{
+    background-color: #e69ef2;
+    z-index: 1;
+    top: 100px;
+}
+#dos{
+    background-color: #62d0ff;
+    bottom: 56px;
+    left: 156px;
+
+}
+#tres{
+    background-color: #ced5db;
+    bottom: 56px;
+}
+#cuatro{
+    background-color: #85e38d;
+    bottom: 212px;
+    left: 156px;
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+    float: left;
+    border: solid 5px;
+}
+
+#navbar{
+    background-color: #118AB2;
+}
+
+#contenido{
+    width: 70%;
+    background-color: #06D6A0;
+    float: right;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: #EF476F;
+    float: left;
+}

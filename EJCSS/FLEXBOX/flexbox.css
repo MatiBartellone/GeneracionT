@@ -1,0 +1,23 @@
+.padreFlex{
+    width: 900px;
+    height: 300px;
+    border: solid 1px black;
+    display: flex;
+    background-color: coral;
+    margin: 20px;
+    padding: 2px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly ;
+    align-items: center;
+    
+
+}
+
+.padreFlex div{
+    border: solid 1px black;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
