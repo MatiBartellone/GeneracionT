@@ -65,7 +65,7 @@ function gameOver(){
     h1.innerText = "GAME OVER";
 
     let puntaje = document.createElement("p");
-    puntaje.innerText = "puntaje final: " + score;
+    puntaje.innerText = `puntaje final: ${score}`;
 
     let bttn = document.createElement("button");
     bttn.innerText = "VOLVE A EMPEZAR";

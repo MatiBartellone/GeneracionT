@@ -1,0 +1,63 @@
+#header{
+    display: flex;
+    min-width: 20vh;
+    background-color: lightblue;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 0;
+
+}
+
+#header h1{
+  font-size: 45px;
+  color: rgb(24, 24, 102);
+}
+
+.headerLogo{
+    height: 15vmin;
+    pointer-events: none;
+    filter: invert(15%) sepia(77%) saturate(6765%) hue-rotate(358deg) brightness(105%) contrast(112%);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    #logo1{
+      animation: App-logo1-spin infinite 40s linear;
+    }
+  }
+
+
+  @media (prefers-reduced-motion: no-preference) {
+    #logo2{
+      animation: App-logo2-spin infinite 40s linear;
+
+    }
+  }
+
+  @keyframes App-logo2-spin {
+    0%   {filter: invert(15%) sepia(77%) saturate(6765%) hue-rotate(358deg) brightness(105%) contrast(112%);
+          transform: rotate(360deg);}
+    16%  {filter: invert(78%) sepia(56%) saturate(7293%) hue-rotate(84deg) brightness(123%) contrast(120%);}
+    33%  {filter: invert(9%) sepia(87%) saturate(4501%) hue-rotate(242deg) brightness(134%) contrast(160%);}
+    49% {filter: invert(67%) sepia(82%) saturate(4021%) hue-rotate(1deg) brightness(109%) contrast(103%);}
+    67% {filter: invert(86%) sepia(86%) saturate(998%) hue-rotate(357deg) brightness(107%) contrast(107%);}
+    83% {filter: invert(79%) sepia(50%) saturate(823%) hue-rotate(121deg) brightness(102%) contrast(108%);}
+    100% {filter: invert(15%) sepia(77%) saturate(6765%) hue-rotate(358deg) brightness(105%) contrast(112%);
+          transform: rotate(0deg)}
+  }
+
+  @keyframes App-logo1-spin {
+    0%   {filter: invert(79%) sepia(50%) saturate(823%) hue-rotate(121deg) brightness(102%) contrast(108%);
+          transform: rotate(0deg);}
+    16%  {filter: invert(86%) sepia(86%) saturate(998%) hue-rotate(357deg) brightness(107%) contrast(107%);}
+    33%  {filter: invert(67%) sepia(82%) saturate(4021%) hue-rotate(1deg) brightness(109%) contrast(103%);}
+    49% {filter: invert(9%) sepia(87%) saturate(4501%) hue-rotate(242deg) brightness(134%) contrast(160%);}
+    67% {filter: invert(78%) sepia(56%) saturate(7293%) hue-rotate(84deg) brightness(123%) contrast(120%);}
+    83% {filter: invert(15%) sepia(77%) saturate(6765%) hue-rotate(358deg) brightness(105%) contrast(112%);}
+    100% {filter: invert(79%) sepia(50%) saturate(823%) hue-rotate(121deg) brightness(102%) contrast(108%);
+          transform: rotate(360deg)}
+  }
